@@ -68,7 +68,7 @@ AnyEvent::FastPing::register_cb sub {
 };
 
 AnyEvent::FastPing::icmp_ping
-    [ [v172.22.36.1, v172.22.36.255, .01] ],
+    [ [v172.22.36.1, v172.22.37.255, .01] ],
     .001,
     0x12345678,
     sub {
